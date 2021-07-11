@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Optimiza tu trabajo</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<form class="form">
+		<input type="number" max="23" min="0" id="horas" value="00">
+		<input type="number" max="59" min="0" id="minutos" value="00">
+		<input type="number" max="59" min="0" id="segundos" value="00">
+		<input type="button" id="programar">
+	</form>
+	<div class="alarma">
+		<div class="numeros">
+			<div id="h"></div>
+			<div class="puntos">:</div>
+			<div id="m"></div>
+			<div class="puntos">:</div>
+			<div id="s"></div>
+		</div>
+	</div>
+	<audio id="audio" src= "rs.mp3"></audio>
+<script src="alarm.js"></script>
+</body>
+</html>
